@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pytest = "==7.3.2"
 pytest-xdist = "==3.3.1"
-buildkite-test-collector = "==0.1.7"
+buildkite-test-collector = { git = 'https://github.com/buildkite/test-collector-python', ref = 'xdist-duplicates' }
 
 [dev-packages]
 
